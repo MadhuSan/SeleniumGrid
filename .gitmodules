@@ -1,0 +1,3 @@
+[submodule "SeleniumGridWithStandaloneContainer"]
+	path = SeleniumGridWithStandaloneContainer
+	url = https://github.com/MadhuSan/SeleniumGrid.git
