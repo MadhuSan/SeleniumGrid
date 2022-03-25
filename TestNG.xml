@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumGridDemo" >
+    <test name="Cross Browser Test" parallel="methods" thread-count="3" >
+        <classes>
+            <class name="grid.CrossBrowserAndParallelTest"/>
+        </classes>
+    </test>
+</suite>
