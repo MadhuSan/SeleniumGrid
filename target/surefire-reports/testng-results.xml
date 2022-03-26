@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-27T00:03:20 IST" name="SeleniumGridDemo" finished-at="2022-03-27T00:04:01 IST" duration-ms="40710">
+  <suite started-at="2022-03-27T00:24:38 IST" name="SeleniumGridDemo" finished-at="2022-03-27T00:25:17 IST" duration-ms="39418">
     <groups>
     </groups>
-    <test started-at="2022-03-27T00:03:20 IST" name="Cross Browser Test" finished-at="2022-03-27T00:04:01 IST" duration-ms="40710">
+    <test started-at="2022-03-27T00:24:38 IST" name="Cross Browser Test" finished-at="2022-03-27T00:25:17 IST" duration-ms="39418">
       <class name="grid.SetUpDockerGrid">
-        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@48aaecc3]" started-at="2022-03-27T00:03:20 IST" name="startDockerGrid" finished-at="2022-03-27T00:03:35 IST" duration-ms="15016" status="PASS">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-27T00:24:38 IST" name="startDockerGrid" finished-at="2022-03-27T00:24:53 IST" duration-ms="15012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDockerGrid -->
-        <test-method signature="fireFoxTest()[pri:0, instance:grid.SetUpDockerGrid@48aaecc3]" started-at="2022-03-27T00:03:35 IST" name="fireFoxTest" finished-at="2022-03-27T00:03:46 IST" duration-ms="10639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fireFoxTest -->
-        <test-method signature="chromeTest()[pri:0, instance:grid.SetUpDockerGrid@48aaecc3]" started-at="2022-03-27T00:03:35 IST" name="chromeTest" finished-at="2022-03-27T00:03:38 IST" duration-ms="2847" status="PASS">
+        <test-method signature="chromeTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-27T00:24:53 IST" name="chromeTest" finished-at="2022-03-27T00:24:55 IST" duration-ms="2617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeTest -->
-        <test-method signature="edgeTest()[pri:0, instance:grid.SetUpDockerGrid@48aaecc3]" started-at="2022-03-27T00:03:35 IST" name="edgeTest" finished-at="2022-03-27T00:03:41 IST" duration-ms="5334" status="PASS">
+        <test-method signature="edgeTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-27T00:24:53 IST" name="edgeTest" finished-at="2022-03-27T00:24:55 IST" duration-ms="2491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edgeTest -->
-        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@48aaecc3]" started-at="2022-03-27T00:03:46 IST" name="stopDockerGrid" finished-at="2022-03-27T00:04:01 IST" duration-ms="15021" status="PASS">
+        <test-method signature="fireFoxTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-27T00:24:53 IST" name="fireFoxTest" finished-at="2022-03-27T00:25:02 IST" duration-ms="9356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxTest -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-27T00:25:02 IST" name="stopDockerGrid" finished-at="2022-03-27T00:25:17 IST" duration-ms="15018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDockerGrid -->

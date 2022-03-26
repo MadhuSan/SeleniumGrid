@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumGridDemo]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="Cross Browser Test(failed)" verbose="0">
+    <classes>
+      <class name="grid.SetUpDockerGrid">
+        <methods>
+          <include name="edgeTest"/>
+          <include name="stopDockerGrid"/>
+          <include name="startDockerGrid"/>
+          <include name="chromeTest"/>
+          <include name="fireFoxTest"/>
+        </methods>
+      </class> <!-- grid.SetUpDockerGrid -->
+    </classes>
+  </test> <!-- Cross Browser Test(failed) -->
+</suite> <!-- Failed suite [SeleniumGridDemo] -->
