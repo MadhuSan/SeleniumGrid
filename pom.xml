@@ -16,7 +16,7 @@
                 <configuration>
                     <skipTests>false</skipTests>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <forkMode>once</forkMode>
+                    <forkCount>0</forkCount>
                     <suiteXmlFiles>
                         <suiteXmlFile>TestNGDocker.xml</suiteXmlFile>
                     </suiteXmlFiles>
