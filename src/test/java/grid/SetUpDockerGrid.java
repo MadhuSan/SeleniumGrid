@@ -31,7 +31,7 @@ public class SetUpDockerGrid {
         URL url = new URL("http://localhost:4444/wd/hub");
         RemoteWebDriver driver = new RemoteWebDriver(url, opt);
         driver.get("https://www.facebook.com/");
-        System.out.println(driver.getTitle());
+        System.out.println("Chrome output: "+driver.getTitle());
         driver.quit();
     }
     @Test
