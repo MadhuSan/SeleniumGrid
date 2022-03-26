@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-26T23:49:17 IST" name="SeleniumGridDemo" finished-at="2022-03-26T23:50:00 IST" duration-ms="43000">
+    <groups>
+    </groups>
+    <test started-at="2022-03-26T23:49:17 IST" name="Cross Browser Test" finished-at="2022-03-26T23:50:00 IST" duration-ms="43000">
+      <class name="grid.SetUpDockerGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-26T23:49:17 IST" name="startDockerGrid" finished-at="2022-03-26T23:49:32 IST" duration-ms="15013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="chromeTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-26T23:49:32 IST" name="chromeTest" finished-at="2022-03-26T23:49:37 IST" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="edgeTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-26T23:49:32 IST" name="edgeTest" finished-at="2022-03-26T23:49:39 IST" duration-ms="7035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeTest -->
+        <test-method signature="fireFoxTest()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-26T23:49:32 IST" name="fireFoxTest" finished-at="2022-03-26T23:49:44 IST" duration-ms="12089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxTest -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:grid.SetUpDockerGrid@7adda9cc]" started-at="2022-03-26T23:49:44 IST" name="stopDockerGrid" finished-at="2022-03-26T23:50:00 IST" duration-ms="15842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- grid.SetUpDockerGrid -->
+    </test> <!-- Cross Browser Test -->
+  </suite> <!-- SeleniumGridDemo -->
+</testng-results>
