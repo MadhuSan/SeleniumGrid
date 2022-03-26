@@ -3,7 +3,7 @@
 <suite name="SeleniumGridDemo" >
     <test name="Cross Browser Test" parallel="methods" thread-count="3" >
         <classes>
-            <class name="grid.CrossBrowserAndParallelTest"/>
+            <class name="grid.SetUpDockerGrid"/>
         </classes>
     </test>
 </suite>
