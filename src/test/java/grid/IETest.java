@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class IETest {
     public static WebDriver driver;
-    @Test
+/*    @Test
     public void ieTest() throws MalformedURLException, InterruptedException {
         DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
         dc.setCapability("ignoreProtectedModeSettings", true);
@@ -24,6 +24,6 @@ public class IETest {
         driver.get("https://www.google.com/");
         System.out.println("output: " + driver.getTitle());
         driver.quit();
-    }
+    }*/
 }
 
